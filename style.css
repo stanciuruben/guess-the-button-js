@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-59%, -50%);
+}
+
+.heading {
+	font-size: 4rem;
+	text-align: center;
+	margin: 1rem;
+}
+
+.success {
+	color: green;
+}
+
+.danger {
+	color: red;
+}
+
+.game-button {
+	padding: 2rem 2.5rem;
+	margin: 1rem;
+	cursor: pointer;
+	border-radius: 50%;
+	border: none;
+	background-color: darkgray;
+	color: white;
+	font-size: 2rem;
+	box-shadow: 0.6rem 0.6rem 0 rgba(0, 0, 0, 0.6);
+	transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.game-button:hover {
+	transform: translate(0.6rem, 0.6rem);
+	box-shadow: 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.9);
+}
+
+#n-of-buttons {
+	width: 35rem;
+	font-size: 2rem;
+}
+
+#start-button {
+	font-size: 2rem;
+	padding: 0 1rem;
+	cursor: pointer;
+}
+
+#buttons-container {
+	text-align: center;
+}
